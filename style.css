@@ -8,7 +8,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(143, 142, 145);
+}
 /* SIGNIN */
 
 .sign-in {
@@ -29,7 +33,8 @@ justify-content: flex-end;
    font-size: 12px;
 }
 
-.login-link {
+
+.login-link, .phone-notice {
     font-size: 11px;
 }
 
@@ -58,11 +63,6 @@ justify-content: flex-end;
     height: 80%;
 }
 
-h1 {
-    text-align: center;
-    letter-spacing: 5px;
-    color: rgb(143, 142, 145);
-}
 
 .my-form{
    padding: 25px;
@@ -72,11 +72,12 @@ h1 {
 
 .header-icon {
     padding-right: 10px;
+    width: 30px;
 
 }
 
 
- h2 {
+h2 {
     font-size: 24px;
     color: #4C4C4C;
     line-height: 1.1;
@@ -137,7 +138,6 @@ form input {
 }
 
 .phone-notice {
-    font-size: 10px;
     margin: 0;
     padding: 0;
     color: #505050;
