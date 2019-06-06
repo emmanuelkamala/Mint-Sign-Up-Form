@@ -97,7 +97,7 @@ h2 {
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 15px;
     font-size: 20px;
 }
@@ -127,7 +127,6 @@ form {
 }
 
 .size {
-    width: 98%;
     height: 28px;
     border-radius: 1px;
     box-shadow: none;
@@ -135,6 +134,7 @@ form {
 
 form input {
     margin: 10px auto;
+    border: 1px solid #C1C5C8
 }
 
 .phone-notice {
@@ -149,7 +149,6 @@ form input {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
     line-height: 1.5;
     color: #505050;
     
@@ -181,10 +180,11 @@ height: 34px;
     display: block;
     width: 100%;
     background: #0077C5;
-    border: 1px solid #0077C5;
+    border: none;
     border-radius: 3px;
     color: white;
-    padding: 10px 10px
+    font-size: 16px;
+    height: 34px;
 }
 
 
@@ -201,7 +201,6 @@ height: 34px;
     position: relative;
    text-decoration: none;
    color: #505050;
-   padding-right: -10px
 }
 
 
