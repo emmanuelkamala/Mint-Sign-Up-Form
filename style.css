@@ -29,8 +29,13 @@ justify-content: flex-end;
     font-weight: 400px;
 }
 
+.my-form{
+    padding: 25px 25px;
+}
+
 .header-icon {
     padding-right: 10px;
+
 }
 
 
@@ -62,6 +67,7 @@ ul {
 
 form {
     background-color: white;
+    border: 2px solid lightgray;
 }
 
 form input {
@@ -72,10 +78,38 @@ form input {
     font-size: 11px;
 }
 
-.captcha {
-    font-size: 11px;
+button {
+    background: #0077C5;
+    border: 1px solid #0077C5;
+    border-radius: 3px;
+    padding: 10px 55px;
+    color: white;
+    font-size: 16px;
     
 }
+
+
+.captcha {
+    width: 80%;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
+    
+}
+
+.recaptcha {
+    font-size: 9px;
+    background-color: #ECEEF1;
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+
+
 /* FOOTER */
 
 footer {
