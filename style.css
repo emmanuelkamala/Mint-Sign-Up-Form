@@ -36,6 +36,10 @@ justify-content: flex-end;
     font-size: 11px;
 }
 
+.login, .sign-up .form-description{
+    font-size: 14px;
+}
+
 .login{
     max-height: 50%;
     margin-top: 15px;
@@ -43,7 +47,6 @@ justify-content: flex-end;
     border: 1px solid #0077C5;
     border-radius: 3px;
     color: white;
-    font-size: 14px;
     
 }
 
@@ -86,7 +89,6 @@ justify-content: flex-end;
 
 .sign-up .form-description {
     color: #4C4C4C;
-    font-size: 14px;
     font-weight: 300;
     text-align: center;
     margin: 10px auto;
@@ -103,13 +105,17 @@ ul {
 .mint-icons {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
+    
 }
 
 .mint-icons a {
     text-decoration: none;
     color: rgb(126, 126, 126);
 
+}
+
+.mint-icons, .create-account-button{
+    font-size: 16px;
 }
 
 
@@ -142,7 +148,6 @@ form input {
 
 .captcha {
     width: 70%;
-    font-size: 13px;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -180,7 +185,6 @@ height: 34px;
     border: 1px solid #0077C5;
     border-radius: 3px;
     color: white;
-    font-size: 16px;
     padding: 10px 10px
 }
 
@@ -197,7 +201,6 @@ height: 34px;
 .footer-link {
     position: relative;
    text-decoration: none;
-   font-size: 13px;
    color: #505050;
    padding-right: -10px
 }
@@ -207,6 +210,9 @@ height: 34px;
   width: 50%;
   text-align: center;
   margin: 0 auto 25px;
-  font-size: 13px;
   color: #505050;
+}
+
+.footer-link, .footer-paragraph, .captcha {
+    font-size: 13px;
 }
