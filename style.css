@@ -166,7 +166,7 @@ form input {
 
 
 input {
-border: 1px solid #C1C5C8;
+border-color: #C1C5C8;
 border-radius: 3px;
 line-height: 1.3em;
 font-size: 1.2em;
