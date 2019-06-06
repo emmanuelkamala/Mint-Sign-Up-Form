@@ -8,12 +8,20 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    letter-spacing: 5px;
+    color: rgb(143, 142, 145);
+}
 /* SIGNIN */
 
 .sign-in {
 display: flex;
 justify-content: flex-end;
 
+}
+
+.sign-in button {
+    width: 30%;
 }
 
 /* SIGNUP */
@@ -25,8 +33,6 @@ justify-content: flex-end;
 
 .sign-up h1 {
     text-align: center;
-    padding: 20px 0;
-    font-weight: 400px;
 }
 
 .my-form{
@@ -63,7 +69,16 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    margin: 15px;
+    font-size: 20px;
 }
+
+.mint-icons a {
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+
+}
+
 
 /* FORM */
 
@@ -123,6 +138,23 @@ button {
 }
 
 
+input {
+border: 1px solid #C1C5C8;
+border-radius: 3px;
+line-height: 1.3em;
+font-size: 1.2em;
+width: 320px;
+min-width: 160px;
+height: 34px;
+}
+
+.create-account-button {
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    
+}
 
 
 
