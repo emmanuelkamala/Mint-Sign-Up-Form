@@ -8,10 +8,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1 {
-    letter-spacing: 5px;
-    color: rgb(143, 142, 145);
-}
+
 /* SIGNIN */
 
 .sign-in {
@@ -58,8 +55,10 @@ justify-content: flex-end;
     height: 80%;
 }
 
-.sign-up h1 {
+h1 {
     text-align: center;
+    letter-spacing: 5px;
+    color: rgb(143, 142, 145);
 }
 
 .my-form{
@@ -74,7 +73,7 @@ justify-content: flex-end;
 }
 
 
-.sign-up h2 {
+ h2 {
     font-size: 24px;
     color: #4C4C4C;
     line-height: 1.1;
@@ -95,7 +94,7 @@ justify-content: flex-end;
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 15px;
     font-size: 20px;
 }
@@ -121,7 +120,6 @@ form {
 }
 
 .size {
-    width: 98%;
     height: 28px;
     border-radius: 1px;
     box-shadow: none;
@@ -145,7 +143,6 @@ form input {
     font-size: 13px;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
     line-height: 1.5;
     color: #505050;
     
@@ -162,7 +159,7 @@ form input {
 
 
 input {
-border: 1px solid #C1C5C8;
+border-color: #C1C5C8;
 border-radius: 3px;
 line-height: 1.3em;
 font-size: 1.2em;
@@ -177,11 +174,11 @@ height: 34px;
     display: block;
     width: 100%;
     background: #0077C5;
-    border: 1px solid #0077C5;
+    border: none;
     border-radius: 3px;
     color: white;
     font-size: 16px;
-    padding: 10px 10px
+    height: 34px;
 }
 
 
@@ -199,7 +196,6 @@ height: 34px;
    text-decoration: none;
    font-size: 13px;
    color: #505050;
-   padding-right: -10px
 }
 
 
