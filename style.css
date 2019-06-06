@@ -8,6 +8,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    letter-spacing: 5px;
+    color: rgb(143, 142, 145);
+}
 /* SIGNIN */
 
 .sign-in {
