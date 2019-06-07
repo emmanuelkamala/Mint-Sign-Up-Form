@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,9 +14,12 @@ h1 {
     letter-spacing: 5px;
     color: rgb(143, 142, 145);
 }
+
+
+
 /* SIGNIN */
 
-.sign-in {
+header {
 display: flex;
 justify-content: flex-end;
 
@@ -63,6 +67,10 @@ justify-content: flex-end;
     height: 80%;
 }
 
+.logo {
+    display: block;
+    margin: 0 auto;
+  } 
 
 .my-form{
    padding: 25px;
@@ -70,10 +78,14 @@ justify-content: flex-end;
 
 }
 
-.header-icon {
-    padding-right: 10px;
-    width: 30px;
+ a {
+    font-size: 12px;
+    color: #0077C5;
+    text-decoration: none;
+}
 
+.learn:hover {
+    text-decoration: underline;
 }
 
 
@@ -83,7 +95,13 @@ h2 {
     line-height: 1.1;
     text-align: center;
     font-weight: 400;
-    margin: 30px auto;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom: none;
+    padding-top: 30px;
+    border: 1px solid lightgray;
+    border-bottom: none;
+
 
 }
 
@@ -91,8 +109,11 @@ h2 {
     color: #4C4C4C;
     font-weight: 300;
     text-align: center;
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 10px 0;
+
 }
+
 
 ul {
     list-style-type: none;
@@ -104,9 +125,15 @@ ul {
 
 .mint-icons {
     display: flex;
-    justify-content: space-between;
-    
+    flex-wrap: wrap; 
 }
+
+.mint-icons li {
+    display: flex;
+    align-items: center;
+}
+
+
 
 .mint-icons a {
     text-decoration: none;
@@ -118,12 +145,18 @@ ul {
     font-size: 16px;
 }
 
+.header-icon {
+    margin-right: 5px;
+}
+
 
 /* FORM */
 
 form {
     background-color: white;
     border: 1px solid lightgray;
+    border-bottom: none;
+    border-top: none;
 }
 
 .size {
@@ -146,21 +179,29 @@ form input {
 
 
 .captcha {
-    width: 70%;
+    width: 338px;
     margin: 0 auto;
     text-align: center;
     line-height: 1.5;
     color: #505050;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-top: none;
+    border-bottom: none;
     
 }
 
 .recaptcha {
+    margin: 0 auto;
     font-size: 9px;
     background-color: #ECEEF1;
-    margin-top: 20px;
-    padding: 20px 0;
     text-align: center;
-    
+    width: 378px;
+    border: 1px solid lightgray;
+    border-top: none;
+    margin-top: -9px;
+    padding: 10px 0;
 }
 
 
