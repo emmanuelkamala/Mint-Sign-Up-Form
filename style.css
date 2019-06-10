@@ -1,7 +1,6 @@
 html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -34,12 +33,11 @@ justify-content: flex-end;
 
 .login-notice{
    width: 180px;
-   font-size: 12px;
 }
 
 
-.login-link, .phone-notice {
-    font-size: 11px;
+.login-link, .phone-notice, .login-notice, a {
+    font-size: 12px;
 }
 
 .login, .sign-up .form-description{
@@ -79,7 +77,6 @@ justify-content: flex-end;
 }
 
  a {
-    font-size: 12px;
     color: #0077C5;
     text-decoration: none;
 }
@@ -97,7 +94,6 @@ h2 {
     font-weight: 400;
     margin: 0 auto;
     background-color: white;
-    border-bottom: none;
     padding-top: 30px;
     border: 1px solid lightgray;
     border-bottom: none;
@@ -111,6 +107,10 @@ h2 {
     text-align: center;
     margin: 0 auto;
     padding: 10px 0;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    border-top: none;
 
 }
 
@@ -178,26 +178,39 @@ form input {
 
 
 
-.captcha {
-    width: 338px;
+.captcha-wrapper{
     margin: 0 auto;
+    width: 378px;
+    
+
+}
+
+.captcha{
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
     line-height: 1.5;
     color: #505050;
     background-color: white;
-    padding: 20px;
     border: 1px solid lightgray;
     border-top: none;
     border-bottom: none;
     
+    
 }
+
+.recaptcha-wrapper{
+    margin: 0 auto;
+    width: 378px;
+}
+
+
 
 .recaptcha {
     margin: 0 auto;
     font-size: 9px;
     background-color: #ECEEF1;
     text-align: center;
-    width: 378px;
     border: 1px solid lightgray;
     border-top: none;
     margin-top: -9px;
