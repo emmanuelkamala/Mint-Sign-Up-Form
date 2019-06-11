@@ -1,4 +1,4 @@
-* {
+html {
     margin: 0;
     padding: 0;
 }
@@ -8,12 +8,54 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(143, 142, 145);
+}
+
+
+
 /* SIGNIN */
 
-.sign-in {
+header {
 display: flex;
 justify-content: flex-end;
 
+}
+
+.sign-in-wrapper{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.login-notice{
+   width: 180px;
+}
+
+
+.login-link, .phone-notice, .login-notice, a {
+    font-size: 12px;
+}
+
+.login, .sign-up .form-description{
+    font-size: 14px;
+}
+
+.login{
+    max-height: 50%;
+    margin-top: 15px;
+    background: #0077C5;
+    border: 1px solid #0077C5;
+    border-radius: 3px;
+    color: white;
+    
+}
+
+.sign-in button {
+    width: 30%;
 }
 
 /* SIGNUP */
@@ -23,57 +65,206 @@ justify-content: flex-end;
     height: 80%;
 }
 
-.sign-up h1 {
-    text-align: center;
-    padding: 20px 0;
-    font-weight: 400px;
+.logo {
+    display: block;
+    margin: 0 auto;
+  } 
+
+.my-form{
+   padding: 25px;
+   color: #505050;
+
 }
 
-.sign-up h2 {
+ a {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+.learn:hover {
+    text-decoration: underline;
+}
+
+
+h2 {
     font-size: 24px;
     color: #4C4C4C;
     line-height: 1.1;
     text-align: center;
     font-weight: 400;
-    margin: 30px auto;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 30px;
+    border: 1px solid lightgray;
+    border-bottom: none;
+
 
 }
 
 .sign-up .form-description {
     color: #4C4C4C;
-    font-size: 14px;
     font-weight: 300;
     text-align: center;
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    border-top: none;
+
 }
+
 
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 20px;
 }
+
+.mint-icons {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.mint-icons li {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.mint-icons a {
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+
+}
+
+.mint-icons, .create-account-button{
+    font-size: 16px;
+}
+
+.header-icon {
+    margin-right: 5px;
+}
+
 
 /* FORM */
 
 form {
     background-color: white;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    border-top: none;
+}
+
+.size {
+    height: 28px;
+    border-radius: 1px;
+    box-shadow: none;
 }
 
 form input {
     margin: 10px auto;
+    border: 1px solid #C1C5C8
 }
 
 .phone-notice {
-    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    color: #505050;
 }
 
-.captcha {
-    font-size: 11px;
+
+
+.captcha-wrapper{
+    margin: 0 auto;
+    width: 378px;
+    
+
+}
+
+.captcha{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5;
+    color: #505050;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-top: none;
+    border-bottom: none;
+    
     
 }
+
+.recaptcha-wrapper{
+    margin: 0 auto;
+    width: 378px;
+}
+
+
+
+.recaptcha {
+    margin: 0 auto;
+    font-size: 9px;
+    background-color: #ECEEF1;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-top: none;
+    margin-top: -9px;
+    padding: 10px 0;
+}
+
+
+input {
+border-color: #C1C5C8;
+border-radius: 3px;
+line-height: 1.3em;
+font-size: 1.2em;
+width: 320px;
+min-width: 160px;
+height: 34px;
+}
+
+.create-account-button {
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    background: #0077C5;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    height: 34px;
+}
+
+
+
 /* FOOTER */
 
-footer {
-    width: 380px;
-    margin: 0 auto;
+.footer-list{
+    
+    width: 10%;
+    margin: 25px auto 4px;
+}
+
+.footer-link {
+    position: relative;
+   text-decoration: none;
+   color: #505050;
+}
+
+
+.footer-paragraph {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto 25px;
+  color: #505050;
+}
+
+.footer-link, .footer-paragraph, .captcha {
+    font-size: 13px;
 }
